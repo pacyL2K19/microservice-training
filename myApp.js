@@ -31,6 +31,7 @@ app.post('/name',bodyParser.urlencoded({extended: false}),(req, res) => {
   res.json({name: req.body.first+" "+req.body.last});    
 })
 
+// mongodb+srv://pacifique:test123@cluster0.pjv2y.mongodb.net/<dbname>?retryWrites=true&w=majority
 
 
 
